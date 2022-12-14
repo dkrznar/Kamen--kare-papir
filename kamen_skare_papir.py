@@ -4,6 +4,7 @@ import random
 odabir_korisnika = input("Odaberi 'kamen', 'škare' ili 'papir'")
 akcije = ['kamen', 'škare', 'papir']
 odabir_racunala = random.choice(akcije)
+print(f'\n Ti si izabrao {odabir_korisnika}, a računalo je izabralo {odabir_racunala}')
 
 if odabir_korisnika == odabir_racunala:
     print(f'Neriješeno! Oboje ste izabrali {odabir_korisnika}')
