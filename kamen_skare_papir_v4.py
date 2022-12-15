@@ -1,6 +1,9 @@
 import random
 
 while True:
+    print('KAMEN')
+    print('ŠKARE')
+    print('PAPIR')
     odabir_korisnika_1 = input('Igrač 1: Odaberi "kamen", "škare" ili "papir": ')
     odabir_korisnika_2 = input('Igrač 2: Odaberi "kamen", "škare" ili "papir": ')
 
